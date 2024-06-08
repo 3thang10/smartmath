@@ -1,0 +1,68 @@
+:root{
+    --theme-color:#fb5538;
+}
+html{
+    
+}
+body{
+   
+}
+main{
+   
+}
+#root{
+   
+}
+.App{
+    min-height: 100vh;
+    background-image: url(../image/background.d8ce9680f7ece48818e9.png);
+    background-position: center;
+    object-fit: contain;
+}
+.login{
+    min-height: 100vh;
+}
+.logo{
+    width: 40px;
+}
+#offcanvasNavbar{
+    max-width: 300px;
+}
+.nav-link{
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #000;
+}
+.nav-link.active{
+    color: var(--theme-color) !important;
+}
+.nav-link:hover{
+    background-color: #f5f5f5;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+main{
+    position: relative;
+    top:56px
+}
+
+#myTable th{
+    background-color: var(--theme-color);
+    text-align: left;
+}
+#myTable th, td{
+    border: 1px solid #ddd; /* Viền cho các ô */
+    padding: 8px; /* Khoảng cách giữa nội dung và viền */
+}
+.table th{
+    text-align: center;
+}
+ td{
+    text-align: center;
+}
+#myTable tr:hover{
+    background-color: #ddd;
+}
